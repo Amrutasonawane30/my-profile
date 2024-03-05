@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+}
+header{
+  padding: 8px;
+  background-color: rgb(2, 2, 15);
+  color: white;
+}
+li{
+  padding: 10px;
+  list-style-type: none;
+}
+li::marker{
+
+  content:"😊";
+}
+#resume{
+  color: orange;
+  font-weight: bolder;
+}
+
+.heading{
+  color: cadetblue;
+  font-style: italic;
+
+}
+.name{
+  color: blueviolet;
+  font-weight:bolder;
+}
+#lastlist{
+  font-weight: bold;
+  color: brown;
+}
+.list{
+  color:orchid;
+  font-weight: 300;
+}
+.header-info{
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 5px;
+
+}
+#project{
+  margin-right: 50px;
+}
+table, tr, th, td{
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+th{
+  padding: 10px;
+}
+table{
+  width: 50%;
+}
+
+#projDes{
+  background-color: rgb(155, 136, 102);
+}
+#whatsapp{
+  right: 20%;
+  bottom: 20%;
+}
+nav,header{
+  position: fixed;
+}
+#whatsapp{
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  color: red;
+  background-color: green;
+}
+#chat{
+  bottom: 10px;
+  right: 20px;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
