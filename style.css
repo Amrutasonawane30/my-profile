@@ -60,26 +60,18 @@ table{
 #projDes{
   background-color: rgb(155, 136, 102);
 }
-#whatsapp{
-  right: 20%;
-  bottom: 20%;
+.whatsapp{
+  color: rgb(47, 158, 47);
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
 }
 nav,header{
   position: fixed;
 }
-#whatsapp{
+.chat{
+  color: rgb(51, 109, 201);
   bottom: 20px;
-  right: 20px;
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  color: red;
-  background-color: green;
-}
-#chat{
-  bottom: 10px;
-  right: 20px;
-  position: absolute;
-  height: 50px;
-  width: 50px;
+  right:70px;
+  position: fixed;
 }
